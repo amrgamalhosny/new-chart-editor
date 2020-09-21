@@ -1,0 +1,38 @@
+.addDataBase{
+    padding: 40px;
+    text-align: center;
+}
+.addDataBase .title{
+    color: #393939;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.formCont{
+    width: 40%;
+    margin: auto;
+}
+.formRow{
+    display: flex;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+    max-height: 55px;
+}
+.formLabel{
+    font-size: 16px;
+    color: #8E8E8E;
+    width: 50%;
+    text-align: left;
+}
+.formRow .mat-form-field{
+    font-size: 16px;
+}
+.addDataBase img{
+    margin-bottom: 20px;
+}
+.btnRow{
+    margin-top: 30px;
+}
+.btnRow button{
+    margin: 0 5px;
+}

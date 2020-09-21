@@ -1,0 +1,23 @@
+<div class="homeCont">
+    <div class="optionsCont">
+       <div class="searchInputCont">
+            <input type="search" placeholder="Search Services …">
+            <img src="../../../assets/images/search.svg"  alt="">
+       </div>
+        <div class="filterCont">
+            <img src="../../../assets/images/filter.svg" alt="">
+        </div>
+        <button class="btn blueBtn" (click)="openModal()">Create Workflow</button>
+         
+    </div>
+    <mat-tab-group>    
+        <mat-tab>
+            <ng-template mat-tab-label>All Services (220)</ng-template>
+            <app-services></app-services>
+        </mat-tab>
+        <mat-tab>
+            <ng-template mat-tab-label>Drafts (18)</ng-template>
+            <app-drafts></app-drafts>
+        </mat-tab>
+      </mat-tab-group>
+</div>

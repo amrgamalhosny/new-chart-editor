@@ -1,0 +1,22 @@
+<div class="header">
+    <div class="logoCont">
+        <img src="../../../assets/images/logo.svg" alt="">
+        <p>Orange <span>Work Flow</span></p>
+    </div>
+    <div class="profileCont">
+        <button class="statusBtn">OrangeOffers.DB <span>Connected</span></button>
+        <div class="userCont">
+            <img src="../../../assets/images/user.svg" alt="">
+            <span>Welcome, Omar Zain</span>
+            <button mat-icon-button [matMenuTriggerFor]="menu" class="noBtn">
+                <img src="../../../assets/images/arrowDown.svg" alt="">
+            </button>
+            <mat-menu #menu="matMenu">
+            <button mat-menu-item>Item 1</button>
+            <button mat-menu-item>Item 2</button>
+            </mat-menu>
+           
+        </div>
+    </div>
+</div>
+

@@ -1,1 +1,118 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: "Helvetica Neue" !important; }
+.mat-tab-group{
+    font-family: "Helvetica Neue" !important; 
+}
+
+/* Buttons */
+.btn{
+    font-size: 14px;
+    min-width: 100px;
+    height: 35px;
+    cursor: pointer;
+}
+.blackBtn{
+    background-color: #000000;
+    color: #fff;
+    border: 1px solid #000;
+}
+.whiteBtn{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+.blueBtn{
+    background-color: #53C0EB;
+    color: #fff;
+    border: 1px solid #53C0EB;
+}
+.noBtn{
+    background-color: transparent;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    width: auto;
+}
+button:focus{
+    outline: none;
+}
+/* End Buttons */
+
+
+/* Tabs */
+.mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar{
+    display: none;
+}
+.mat-tab-label-active{
+    opacity: 1 !important;
+    color: #000;
+}
+.mat-tab-label{
+    font-size: 18px;
+}
+.mat-tab-nav-bar, .mat-tab-header{
+    border: none;
+}
+.mat-tab-header{
+    width: 30%;
+}
+/* End Tabs */
+
+/* Table */
+.servTable{
+    width: 100%;
+    border-spacing: unset;
+    padding: 15px 20px;
+}
+.servTable th{
+    text-align: left;
+}
+.servTable .dataRow{
+    background-color: #FFFFFF;
+    color: #393939;
+    height: 60px;
+}
+.dataRow td:first-child{
+    padding-left: 15px;
+}
+.dataRow td{
+    border-bottom: 5px solid #F7F8FA;
+    font-size: 14px;
+}
+.dataHead{
+    color: #797979;
+    font-size: 11px;
+}
+.dataHead th{
+    padding-bottom: 15px;
+}
+.moreMenuItem{
+    display: flex !important;
+    align-items: center;
+}
+.moreMenuItem img{
+    margin: 0 5px;
+}
+
+/* End Table */
+
+/* Modal */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.header .title{
+    font-size: 14px;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.header img{
+    cursor: pointer;
+}
+/* End Modal */

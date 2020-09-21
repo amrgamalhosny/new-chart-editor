@@ -1,0 +1,38 @@
+.recentCont{
+    padding: 95px;
+    text-align:center;
+}
+.recentCont .title{
+    font-size: 22px;
+    color: #393939;
+    margin-bottom: 55px;
+}
+.dbCont{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 20px;
+}
+.dataCont{
+    width: 100%;
+    margin-bottom: 10px;
+    margin: auto 10px;
+    height: 125px;
+    width: 125px;
+    background-color: #FCFCFC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dataCont .text{
+    color: #393939;
+    font-size: 12px;
+    margin: 0;
+    line-height: 7px;
+    margin-top: 5px;
+}
+.dataCont .smallText{
+    font-size: 6px;
+    color: #BEBEBE;
+    margin: 0;
+}

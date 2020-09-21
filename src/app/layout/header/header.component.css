@@ -1,0 +1,40 @@
+.header{
+    background-color: #000;
+    height: 70px;
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    padding: 0px 30px;
+    align-items: center;
+}
+.header .logoCont , .header .profileCont{
+    display: flex;
+    align-items: center;
+}
+.header .logoCont p{
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.header .logoCont span{
+    font-weight: normal;
+}
+.profileCont .statusBtn{
+    background-color: #2B2B2B;
+    color: #fff;
+    border: none;
+    padding: 10px 12px;;
+    font-size: 12px;
+    margin: 0 30px;
+}
+.profileCont .statusBtn span{
+    color: #53C0EB;
+    margin-left: 10px;
+}
+.userCont{
+    display: flex;
+    align-items: center;
+}
+.userCont span{
+    margin: 0 10px;
+}
